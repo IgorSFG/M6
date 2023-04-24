@@ -12,9 +12,7 @@ Para os movimentos da tartaruga, foram pensadas em 4 funções:
 - turn_left e turn_right rotacionam a tartaruga para a direção no qual deseja-se que o move_foward a mande. A função recebe o ângulo como argumento, que nesse caso específico foi preferível a ultização de graus. Para isso então foi criada mais uma função.
 - angle_degrees foi justamente criada para possibilitar a utlização de graus como argumento das funções de rotação da tartaruga. Ela converte o valor fornecido para radianos automáticamente.
 
-A função "main", como o nome diz, é a princípal do script, ela roda quando o arquivo é executado. Nela é inicialiado o ROS , o objeto da classe TurtleController é criado e todos os movimentos que a tartaruga precisará fazer estão nela, cada um com seus argumentos específicos para a realização do desenho.
-
-Feito o desenho, a função encerra o nó e o programa ROS.
+A função "main", como o nome diz, é a princípal do script, ela roda quando o arquivo é executado. Nela é inicializado o ROS, o objeto da classe TurtleController é criado e todos os movimentos que a tartaruga precisará fazer estão nela, cada um com seus argumentos específicos para a realização do desenho, que ao ser finalizado, a função encerra o nó e o programa ROS.
 
 # Tartagira em Ação!
 Inicializado o nó do turtlesim em um terminal com:
