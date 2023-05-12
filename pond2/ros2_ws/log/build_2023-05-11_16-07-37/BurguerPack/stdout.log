@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/BurguerPack/BurguerPack.egg-info
+writing ../../build/BurguerPack/BurguerPack.egg-info/PKG-INFO
+writing dependency_links to ../../build/BurguerPack/BurguerPack.egg-info/dependency_links.txt
+writing entry points to ../../build/BurguerPack/BurguerPack.egg-info/entry_points.txt
+writing requirements to ../../build/BurguerPack/BurguerPack.egg-info/requires.txt
+writing top-level names to ../../build/BurguerPack/BurguerPack.egg-info/top_level.txt
+writing manifest file '../../build/BurguerPack/BurguerPack.egg-info/SOURCES.txt'
+reading manifest file '../../build/BurguerPack/BurguerPack.egg-info/SOURCES.txt'
+writing manifest file '../../build/BurguerPack/BurguerPack.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/igorunix/ros2_ws/build/BurguerPack/build
+creating /home/igorunix/ros2_ws/build/BurguerPack/build/lib
+creating /home/igorunix/ros2_ws/build/BurguerPack/build/lib/BurguerPack
+copying BurguerPack/__init__.py -> /home/igorunix/ros2_ws/build/BurguerPack/build/lib/BurguerPack
+running install
+running install_lib
+creating /home/igorunix/ros2_ws/install/BurguerPack/lib/python3.10/site-packages/BurguerPack
+copying /home/igorunix/ros2_ws/build/BurguerPack/build/lib/BurguerPack/__init__.py -> /home/igorunix/ros2_ws/install/BurguerPack/lib/python3.10/site-packages/BurguerPack
+byte-compiling /home/igorunix/ros2_ws/install/BurguerPack/lib/python3.10/site-packages/BurguerPack/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/igorunix/ros2_ws/install/BurguerPack/share/ament_index
+creating /home/igorunix/ros2_ws/install/BurguerPack/share/ament_index/resource_index
+creating /home/igorunix/ros2_ws/install/BurguerPack/share/ament_index/resource_index/packages
+copying resource/BurguerPack -> /home/igorunix/ros2_ws/install/BurguerPack/share/ament_index/resource_index/packages
+copying package.xml -> /home/igorunix/ros2_ws/install/BurguerPack/share/BurguerPack
+running install_egg_info
+Copying ../../build/BurguerPack/BurguerPack.egg-info to /home/igorunix/ros2_ws/install/BurguerPack/lib/python3.10/site-packages/BurguerPack-0.0.0-py3.10.egg-info
+running install_scripts
+Installing BurguerPack script to /home/igorunix/ros2_ws/install/BurguerPack/lib/BurguerPack
+writing list of installed files to '/home/igorunix/ros2_ws/build/BurguerPack/install.log'

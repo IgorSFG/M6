@@ -1,0 +1,3 @@
+[console_scripts]
+Burguer = BurguerPack:main
+

@@ -1,0 +1,6 @@
+source;share/BurguerPack/hook/pythonpath.ps1
+source;share/BurguerPack/hook/pythonpath.dsv
+source;share/BurguerPack/hook/pythonpath.sh
+source;share/BurguerPack/hook/ament_prefix_path.ps1
+source;share/BurguerPack/hook/ament_prefix_path.dsv
+source;share/BurguerPack/hook/ament_prefix_path.sh
