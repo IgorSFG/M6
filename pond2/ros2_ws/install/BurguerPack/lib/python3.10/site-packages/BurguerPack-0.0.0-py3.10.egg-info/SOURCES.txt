@@ -8,6 +8,7 @@ setup.py
 ../../build/BurguerPack/BurguerPack.egg-info/requires.txt
 ../../build/BurguerPack/BurguerPack.egg-info/top_level.txt
 ../../build/BurguerPack/BurguerPack.egg-info/zip-safe
+BurguerPack/ElementLine.py
 BurguerPack/__init__.py
 resource/BurguerPack
 test/test_copyright.py

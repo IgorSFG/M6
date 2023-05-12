@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000242] (BurguerPack) JobQueued: {'identifier': 'BurguerPack', 'dependencies': OrderedDict()}
+[0.000305] (BurguerPack) JobStarted: {'identifier': 'BurguerPack'}
+[0.086497] (-) TimerEvent: {}
+[0.186879] (-) TimerEvent: {}
+[0.287342] (-) TimerEvent: {}
+[0.387708] (-) TimerEvent: {}
+[0.488074] (-) TimerEvent: {}
+[0.588415] (-) TimerEvent: {}
+[0.688762] (-) TimerEvent: {}
+[0.789367] (-) TimerEvent: {}
+[0.889744] (-) TimerEvent: {}
+[0.990062] (-) TimerEvent: {}
+[1.091264] (-) TimerEvent: {}
+[1.191623] (-) TimerEvent: {}
+[1.291962] (-) TimerEvent: {}
+[1.392362] (-) TimerEvent: {}
+[1.492886] (-) TimerEvent: {}
+[1.593552] (-) TimerEvent: {}
+[1.693949] (-) TimerEvent: {}
+[1.700676] (BurguerPack) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/BurguerPack', 'build', '--build-base', '/home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/build', 'install', '--record', '/home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/install.log', '--single-version-externally-managed'], 'cwd': '/home/igorunix/M6/pond2/ros2_ws/src/BurguerPack', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,95,0', 'USER': 'igorunix', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/igorunix', 'OLDPWD': '/home/igorunix/M6/pond2', 'TERM_PROGRAM_VERSION': '3.2a', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/igorunix/M6/pond2/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'igorunix', 'NAME': 'Computador-Igor', 'WSL_INTEROP': '/run/WSL/9_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/igorunix/.local/bin:/home/igorunix/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu_2204.2.33.0_x64__79rhkp1fndgsc:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Live/Shared:/mnt/c/Program Files/nodejs/:/mnt/c/Users/conta/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/conta/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/conta/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/conta/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/conta/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Users/conta/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'AMENT_PREFIX_PATH': '/home/igorunix/M6/pond2/ros2_ws/install/BurguerPack:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/igorunix/M6/pond2/ros2_ws/build/BurguerPack', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/prefix_override:/home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/python3.10/site-packages:/home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'TMUX_PANE': '%0', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.794076] (-) TimerEvent: {}
+[1.894481] (-) TimerEvent: {}
+[1.994818] (-) TimerEvent: {}
+[2.095591] (-) TimerEvent: {}
+[2.195956] (-) TimerEvent: {}
+[2.296311] (-) TimerEvent: {}
+[2.372296] (BurguerPack) StdoutLine: {'line': b'running egg_info\n'}
+[2.376885] (BurguerPack) StdoutLine: {'line': b'writing ../../build/BurguerPack/BurguerPack.egg-info/PKG-INFO\n'}
+[2.378078] (BurguerPack) StdoutLine: {'line': b'writing dependency_links to ../../build/BurguerPack/BurguerPack.egg-info/dependency_links.txt\n'}
+[2.379239] (BurguerPack) StdoutLine: {'line': b'writing entry points to ../../build/BurguerPack/BurguerPack.egg-info/entry_points.txt\n'}
+[2.381019] (BurguerPack) StdoutLine: {'line': b'writing requirements to ../../build/BurguerPack/BurguerPack.egg-info/requires.txt\n'}
+[2.382079] (BurguerPack) StdoutLine: {'line': b'writing top-level names to ../../build/BurguerPack/BurguerPack.egg-info/top_level.txt\n'}
+[2.387057] (BurguerPack) StdoutLine: {'line': b"reading manifest file '../../build/BurguerPack/BurguerPack.egg-info/SOURCES.txt'\n"}
+[2.391499] (BurguerPack) StdoutLine: {'line': b"writing manifest file '../../build/BurguerPack/BurguerPack.egg-info/SOURCES.txt'\n"}
+[2.391759] (BurguerPack) StdoutLine: {'line': b'running build\n'}
+[2.391895] (BurguerPack) StdoutLine: {'line': b'running build_py\n'}
+[2.395745] (BurguerPack) StdoutLine: {'line': b'copying BurguerPack/__init__.py -> /home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/build/lib/BurguerPack\n'}
+[2.396420] (-) TimerEvent: {}
+[2.396943] (BurguerPack) StdoutLine: {'line': b'running install\n'}
+[2.398265] (BurguerPack) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.398487] (BurguerPack) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.401474] (BurguerPack) StdoutLine: {'line': b'running install_lib\n'}
+[2.404463] (BurguerPack) StdoutLine: {'line': b'copying /home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/build/lib/BurguerPack/__init__.py -> /home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/python3.10/site-packages/BurguerPack\n'}
+[2.407328] (BurguerPack) StdoutLine: {'line': b'byte-compiling /home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/python3.10/site-packages/BurguerPack/__init__.py to __init__.cpython-310.pyc\n'}
+[2.409378] (BurguerPack) StdoutLine: {'line': b'running install_data\n'}
+[2.410549] (BurguerPack) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.418110] (BurguerPack) StdoutLine: {'line': b"removing '/home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/python3.10/site-packages/BurguerPack-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.418621] (BurguerPack) StdoutLine: {'line': b'Copying ../../build/BurguerPack/BurguerPack.egg-info to /home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/python3.10/site-packages/BurguerPack-0.0.0-py3.10.egg-info\n'}
+[2.420243] (BurguerPack) StdoutLine: {'line': b'running install_scripts\n'}
+[2.470926] (BurguerPack) StdoutLine: {'line': b'Installing Burguer script to /home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/BurguerPack\n'}
+[2.471555] (BurguerPack) StdoutLine: {'line': b"writing list of installed files to '/home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/install.log'\n"}
+[2.496542] (-) TimerEvent: {}
+[2.529883] (BurguerPack) CommandEnded: {'returncode': 0}
+[2.569601] (BurguerPack) JobEnded: {'identifier': 'BurguerPack', 'rc': 0}
+[2.572970] (-) EventReactorShutdown: {}
