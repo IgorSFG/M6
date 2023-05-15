@@ -3,9 +3,9 @@ O projeto Burguer consiste em um pacote em ROS capaz de movimentar um robô no a
 
 # Como o Burguer foi feito?
 Primeiramente, foi feita a criação de um pacote em ROS, com um script capaz de enviar e receber dados do ambiente de simulção Gazebo. Esse script possuí as seguintes bibliotecas:
-- rclpy e Node, responsáveis por instanciar o cliente ROS e a classe de nó
+- rclpy e Node, responsáveis por instanciar o cliente ROS e a classe de nó.
 - Twist de geometry_msgs.msg, que define o tipo de mensagem como Twist para a realização do movimento do robô.
-- Odometry de nav_msgs.msg, que define o tipo de extração de tipo odometria
+- Odometry de nav_msgs.msg, que define o tipo de extração de tipo odometria.
 - euler_from_quaternion de tf_transformations, que possibilita o cálculo para a obtenção da posição de rotação do robô.
 - Line de ElementLine, que é um arquivo pythom criado em sala de aula para servir de estrutura de dados, nesse caso, uma lista encadeada de tipo fila.
 
