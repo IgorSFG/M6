@@ -45,7 +45,7 @@ class BurguerController(Node):
 
         self.get_logger().info("Burguer Controller has been started with route: "+ str(self.route)) # Informa que o Burguer Controller foi iniciado
 
-        time.sleep(2) # Espera 1 segundo
+        time.sleep(2) # Espera determinado tempo
 
         self.timer = self.create_timer(timer_period, self.timer_callback) # Cria o timer com o período definido
 
