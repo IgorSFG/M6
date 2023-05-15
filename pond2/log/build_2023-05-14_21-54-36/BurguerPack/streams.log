@@ -1,0 +1,39 @@
+[3.348s] Invoking command in '/home/igorunix/M6/pond2/ros2_ws/src/BurguerPack': PYTHONPATH=/home/igorunix/M6/pond2/build/BurguerPack/prefix_override:/home/igorunix/M6/pond2/install/BurguerPack/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/BurguerPack build --build-base /home/igorunix/M6/pond2/build/BurguerPack/build install --record /home/igorunix/M6/pond2/build/BurguerPack/install.log --single-version-externally-managed
+[4.404s] running egg_info
+[4.407s] creating ../../../build/BurguerPack/BurguerPack.egg-info
+[4.413s] writing ../../../build/BurguerPack/BurguerPack.egg-info/PKG-INFO
+[4.413s] writing dependency_links to ../../../build/BurguerPack/BurguerPack.egg-info/dependency_links.txt
+[4.413s] writing entry points to ../../../build/BurguerPack/BurguerPack.egg-info/entry_points.txt
+[4.413s] writing requirements to ../../../build/BurguerPack/BurguerPack.egg-info/requires.txt
+[4.414s] writing top-level names to ../../../build/BurguerPack/BurguerPack.egg-info/top_level.txt
+[4.414s] writing manifest file '../../../build/BurguerPack/BurguerPack.egg-info/SOURCES.txt'
+[4.421s] reading manifest file '../../../build/BurguerPack/BurguerPack.egg-info/SOURCES.txt'
+[4.425s] writing manifest file '../../../build/BurguerPack/BurguerPack.egg-info/SOURCES.txt'
+[4.429s] running build
+[4.429s] running build_py
+[4.429s] creating /home/igorunix/M6/pond2/build/BurguerPack/build
+[4.431s] creating /home/igorunix/M6/pond2/build/BurguerPack/build/lib
+[4.432s] creating /home/igorunix/M6/pond2/build/BurguerPack/build/lib/BurguerPack
+[4.435s] copying BurguerPack/ElementLine.py -> /home/igorunix/M6/pond2/build/BurguerPack/build/lib/BurguerPack
+[4.442s] copying BurguerPack/__init__.py -> /home/igorunix/M6/pond2/build/BurguerPack/build/lib/BurguerPack
+[4.442s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.443s]   warnings.warn(
+[4.443s] running install
+[4.443s] running install_lib
+[4.444s] creating /home/igorunix/M6/pond2/install/BurguerPack/lib/python3.10/site-packages/BurguerPack
+[4.447s] copying /home/igorunix/M6/pond2/build/BurguerPack/build/lib/BurguerPack/ElementLine.py -> /home/igorunix/M6/pond2/install/BurguerPack/lib/python3.10/site-packages/BurguerPack
+[4.448s] copying /home/igorunix/M6/pond2/build/BurguerPack/build/lib/BurguerPack/__init__.py -> /home/igorunix/M6/pond2/install/BurguerPack/lib/python3.10/site-packages/BurguerPack
+[4.452s] byte-compiling /home/igorunix/M6/pond2/install/BurguerPack/lib/python3.10/site-packages/BurguerPack/ElementLine.py to ElementLine.cpython-310.pyc
+[4.456s] byte-compiling /home/igorunix/M6/pond2/install/BurguerPack/lib/python3.10/site-packages/BurguerPack/__init__.py to __init__.cpython-310.pyc
+[4.458s] running install_data
+[4.463s] creating /home/igorunix/M6/pond2/install/BurguerPack/share/ament_index
+[4.465s] creating /home/igorunix/M6/pond2/install/BurguerPack/share/ament_index/resource_index
+[4.466s] creating /home/igorunix/M6/pond2/install/BurguerPack/share/ament_index/resource_index/packages
+[4.468s] copying resource/BurguerPack -> /home/igorunix/M6/pond2/install/BurguerPack/share/ament_index/resource_index/packages
+[4.470s] copying package.xml -> /home/igorunix/M6/pond2/install/BurguerPack/share/BurguerPack
+[4.470s] running install_egg_info
+[4.476s] Copying ../../../build/BurguerPack/BurguerPack.egg-info to /home/igorunix/M6/pond2/install/BurguerPack/lib/python3.10/site-packages/BurguerPack-0.0.0-py3.10.egg-info
+[4.486s] running install_scripts
+[4.561s] Installing Burguer script to /home/igorunix/M6/pond2/install/BurguerPack/lib/BurguerPack
+[4.567s] writing list of installed files to '/home/igorunix/M6/pond2/build/BurguerPack/install.log'
+[4.697s] Invoked command in '/home/igorunix/M6/pond2/ros2_ws/src/BurguerPack' returned '0': PYTHONPATH=/home/igorunix/M6/pond2/build/BurguerPack/prefix_override:/home/igorunix/M6/pond2/install/BurguerPack/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/BurguerPack build --build-base /home/igorunix/M6/pond2/build/BurguerPack/build install --record /home/igorunix/M6/pond2/build/BurguerPack/install.log --single-version-externally-managed

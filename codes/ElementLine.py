@@ -1,9 +1,10 @@
-class ElementLine():
-    def __init__(self, value, next):
+# Código feito em sala de aula
+class ElementLine:
+    def __init__(self, value, next_element=None):
         self.value = value
-        self.next = next
+        self.next = next_element
 
-class Line():
+class Line:
     def __init__(self):
         self.head = None
         self.tail = None
@@ -22,17 +23,24 @@ class Line():
     def pop(self):
         if self.head is None:
             print("Line is empty")
+            return None
         else:
             out_value = self.head.value
             self.head = self.head.next
             self.size -= 1
-            print(out_value)
+            return out_value
 
-
-    def __repr__(self) -> str:
-        if self.head is None:
+    def __repr__(self):
+        elements = []
+        current_element = self.head
+        while current_element is not None:
+            elements.append(str(current_element.value))
+            current_element = current_element.next
+        if len(elements) == 0:
             return "Line -> None"
-        return f"Line -> {self.head.value}"
+        else:
+            return "Line -> " + " -> ".join(elements)
+
 
 def main():     
     line = Line()

@@ -1,0 +1,26 @@
+[2.521s] Invoking command in '/home/igorunix/M6/pond2/ros2_ws/src/BurguerPack': PYTHONPATH=/home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/prefix_override:/home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/BurguerPack build --build-base /home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/build install --record /home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/install.log --single-version-externally-managed
+[3.362s] running egg_info
+[3.367s] writing ../../build/BurguerPack/BurguerPack.egg-info/PKG-INFO
+[3.370s] writing dependency_links to ../../build/BurguerPack/BurguerPack.egg-info/dependency_links.txt
+[3.372s] writing entry points to ../../build/BurguerPack/BurguerPack.egg-info/entry_points.txt
+[3.374s] writing requirements to ../../build/BurguerPack/BurguerPack.egg-info/requires.txt
+[3.377s] writing top-level names to ../../build/BurguerPack/BurguerPack.egg-info/top_level.txt
+[3.385s] reading manifest file '../../build/BurguerPack/BurguerPack.egg-info/SOURCES.txt'
+[3.389s] writing manifest file '../../build/BurguerPack/BurguerPack.egg-info/SOURCES.txt'
+[3.390s] running build
+[3.391s] running build_py
+[3.393s] copying BurguerPack/__init__.py -> /home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/build/lib/BurguerPack
+[3.396s] running install
+[3.398s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.399s]   warnings.warn(
+[3.402s] running install_lib
+[3.406s] copying /home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/build/lib/BurguerPack/__init__.py -> /home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/python3.10/site-packages/BurguerPack
+[3.410s] byte-compiling /home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/python3.10/site-packages/BurguerPack/__init__.py to __init__.cpython-310.pyc
+[3.416s] running install_data
+[3.419s] running install_egg_info
+[3.440s] removing '/home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/python3.10/site-packages/BurguerPack-0.0.0-py3.10.egg-info' (and everything under it)
+[3.447s] Copying ../../build/BurguerPack/BurguerPack.egg-info to /home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/python3.10/site-packages/BurguerPack-0.0.0-py3.10.egg-info
+[3.454s] running install_scripts
+[3.525s] Installing Burguer script to /home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/BurguerPack
+[3.528s] writing list of installed files to '/home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/install.log'
+[3.606s] Invoked command in '/home/igorunix/M6/pond2/ros2_ws/src/BurguerPack' returned '0': PYTHONPATH=/home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/prefix_override:/home/igorunix/M6/pond2/ros2_ws/install/BurguerPack/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/BurguerPack build --build-base /home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/build install --record /home/igorunix/M6/pond2/ros2_ws/build/BurguerPack/install.log --single-version-externally-managed
