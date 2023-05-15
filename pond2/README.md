@@ -24,7 +24,7 @@ Para a movimentação do robô burguer, foram idealizadas 4 funções:
 - a função "main", como o nome diz, é a princípal do script, ela é responsável por inicializar o ROS, o objeto da classe BurguerController, que ao ser finalizado, encerra o nó e o programa ROS.
 
 # Burguer em Ação!
-Inicializado o nó do gazebo em um terminal com:
+Inicializando o nó do gazebo em um terminal com:
 ```
  ros2 launch turtlebot3_gazebo empty_world.launch.py
 ```
