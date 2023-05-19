@@ -12,8 +12,9 @@ class Fila():
     def get(self):
         if self.size > 0:
             self.outvalue = self.route[0]
-            self.route = self.route[0:]
+            self.route = self.route[1:]
             self.size -= 1
+            print(self.route)
             return self.outvalue
         else: return 0.0
 
@@ -27,6 +28,7 @@ class Pilha():
             self.outvalue = self.route[-1]
             self.route = self.route[:-1]
             self.size -= 1
+            print(self.route)
             return self.outvalue
         else: return 0.0
     
@@ -42,7 +44,7 @@ class TurtleController(Node):
         self.fila = Fila(self.route)
         self.pilha = Pilha(self.route)
 
-        self.speed = 0.5
+        self.speed = 1.0
 
     def Go(self):
         self.go = self.fila.get()
