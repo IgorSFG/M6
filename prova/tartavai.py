@@ -42,7 +42,7 @@ class TurtleController(Node):
         self.fila = Fila(self.route)
         self.pilha = Pilha(self.route)
 
-        self.speed = 1.0
+        self.speed = 0.5
 
     def Go(self):
         self.go = self.fila.get()
@@ -55,13 +55,15 @@ class TurtleController(Node):
         print("Go X for " + str(self.time) + " seconds")
         time.sleep(self.time) # Espera o tempo de movimento
 
+        self.Stop()
+
         self.twist.linear.y = self.speed
         self.time = abs(self.y / self.twist.linear.y) # Calcula o tempo de movimento
         self.publisher.publish(self.twist) # Publica a mensagem
         print("Go Y for " + str(self.time) + " seconds")
         time.sleep(self.time) # Espera o tempo de movimento
 
-        self.stop = self.Stop()
+        self.Stop()
 
     def Back(self):
         self.back = self.pilha.get()
@@ -74,18 +76,22 @@ class TurtleController(Node):
         print("Back X for " + str(self.time) + " seconds")
         time.sleep(self.time) # Espera o tempo de movimento
 
+        self.Stop()
+
         self.twist.linear.y = -self.speed
         self.time = abs(self.y / self.twist.linear.y) # Calcula o tempo de movimento
         self.publisher.publish(self.twist) # Publica a mensagem
         print("Back Y for " + str(self.time) + " seconds")
         time.sleep(self.time) # Espera o tempo de movimento
 
-        self.stop = self.Stop()
+        self.Stop()
 
     def Stop(self):
         self.twist.linear.x = 0.0
         self.twist.linear.y = 0.0
         self.publisher.publish(self.twist)
+        if self.fila.size > 0: self.Go()
+        elif self.pilha.size > 0: self.Back()
 
 
 def main(args=None):
