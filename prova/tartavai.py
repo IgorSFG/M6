@@ -54,7 +54,7 @@ class TurtleController(Node):
         self.publisher.publish(self.twist) # Publica a mensagem
         print("Go X for " + str(self.time) + " seconds")
         time.sleep(self.time) # Espera o tempo de movimento
-        self.twist.linear.x = 0
+        self.twist.linear.x = 0.0
         self.publisher.publish(self.twist)
 
         self.twist.linear.y = self.speed
@@ -62,7 +62,7 @@ class TurtleController(Node):
         self.publisher.publish(self.twist) # Publica a mensagem
         print("Go Y for " + str(self.time) + " seconds")
         time.sleep(self.time) # Espera o tempo de movimento
-        self.twist.linear.y = 0
+        self.twist.linear.y = 0.0
         self.publisher.publish(self.twist)
 
         self.Stop()
@@ -77,7 +77,7 @@ class TurtleController(Node):
         self.publisher.publish(self.twist) # Publica a mensagem
         print("Back X for " + str(self.time) + " seconds")
         time.sleep(self.time) # Espera o tempo de movimento
-        self.twist.linear.x = 0
+        self.twist.linear.x = 0.0
         self.publisher.publish(self.twist)
 
         self.twist.linear.y = -self.speed
@@ -85,7 +85,7 @@ class TurtleController(Node):
         self.publisher.publish(self.twist) # Publica a mensagem
         print("Back Y for " + str(self.time) + " seconds")
         time.sleep(self.time) # Espera o tempo de movimento
-        self.twist.linear.y = 0
+        self.twist.linear.y = 0.0
         self.publisher.publish(self.twist)
 
         self.Stop()
