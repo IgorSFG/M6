@@ -46,43 +46,47 @@ class TurtleController(Node):
 
     def Go(self):
         self.go = self.fila.get()
-        self.x = self.go[0]
-        self.y = self.go[1]
+        self.x = float(self.go[0])
+        self.y = float(self.go[1])
 
         self.twist.linear.x = self.speed
         self.time = abs(self.x / self.twist.linear.x) # Calcula o tempo de movimento
         self.publisher.publish(self.twist) # Publica a mensagem
         print("Go X for " + str(self.time) + " seconds")
         time.sleep(self.time) # Espera o tempo de movimento
-
-        self.Stop()
+        self.twist.linear.x = 0
+        self.publisher.publish(self.twist)
 
         self.twist.linear.y = self.speed
         self.time = abs(self.y / self.twist.linear.y) # Calcula o tempo de movimento
         self.publisher.publish(self.twist) # Publica a mensagem
         print("Go Y for " + str(self.time) + " seconds")
         time.sleep(self.time) # Espera o tempo de movimento
+        self.twist.linear.y = 0
+        self.publisher.publish(self.twist)
 
         self.Stop()
 
     def Back(self):
         self.back = self.pilha.get()
-        self.x = self.back[0]
-        self.y = self.back[1]
+        self.x = float(self.back[0])
+        self.y = float(self.back[1])
 
         self.twist.linear.x = -self.speed
         self.time = abs(self.x / self.twist.linear.x) # Calcula o tempo de movimento
         self.publisher.publish(self.twist) # Publica a mensagem
         print("Back X for " + str(self.time) + " seconds")
         time.sleep(self.time) # Espera o tempo de movimento
-
-        self.Stop()
+        self.twist.linear.x = 0
+        self.publisher.publish(self.twist)
 
         self.twist.linear.y = -self.speed
         self.time = abs(self.y / self.twist.linear.y) # Calcula o tempo de movimento
         self.publisher.publish(self.twist) # Publica a mensagem
         print("Back Y for " + str(self.time) + " seconds")
         time.sleep(self.time) # Espera o tempo de movimento
+        self.twist.linear.y = 0
+        self.publisher.publish(self.twist)
 
         self.Stop()
 
@@ -102,7 +106,6 @@ def main(args=None):
     time.sleep(1.0)
 
     turtle.Go()
-    turtle.Back()
 
     turtle.destroy_node()
     rclpy.shutdown()
