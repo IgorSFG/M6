@@ -1,6 +1,4 @@
-import cv2
 from ultralytics import YOLO
-from PIL import Image
 
 # build a new model from YAML
 model = YOLO('yolov8n.pt')
