@@ -1,5 +1,5 @@
 # Projeto Crack
-O nome em português pode soar estranho, mas em inglês, crack siguinifica rachadura, e por isso teve seu nome associado ao projeto que tem justamente a função de decta-las. O projeto crack se baseia em um modelo de IA, que ao ser treinada com um conjunto de dados específico, pôde identificar rachaduras no ambiente.
+O nome em português pode soar estranho, mas em inglês, crack siguinifica rachadura, e por isso teve seu nome associado ao projeto, que tem justamente, a função de detectá-las. O projeto crack se baseia em um modelo de IA, que ao ser treinada com um conjunto de dados específico, pôde identificar rachaduras no ambiente.
 
 # Como o Crack foi feito?
 - Para a criação de um modelo de IA capaz de identificar rachaduras, foi usada a biblioteca ultralytics para a utilização do algorítimo YOLO, mais específicamente, a versão pré treinada da yolov8n.
