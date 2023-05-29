@@ -13,8 +13,4 @@ python3 crack.py
 ```
 Após o treinamento, o resultado são as imagens com as rachaduras acentuadas salvas :D
 
-<<<<<<< HEAD
 [RESULTADO](https://drive.google.com/file/d/1gj5oLly-HEsA_xFprYa6xWMm2sZzMDs8/view?usp=sharing)
-=======
-[RESULTADO](resultado.mp4)
->>>>>>> 2c1a4f075ce97c4bda23434c2ed6c9ff039845eb
