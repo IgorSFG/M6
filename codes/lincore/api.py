@@ -4,10 +4,6 @@ import rclpy
 from rclpy.duration import Duration
 from BotController import tc
 
-"""
-Basic navigation demo to go to pose.
-"""
-
 def main():
     rclpy.init()
 
