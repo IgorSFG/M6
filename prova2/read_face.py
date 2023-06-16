@@ -12,9 +12,6 @@ if not cap.isOpened():
 width  = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
-# Formataçã, local do arquivo de saida, Codec, FPS e Dimensões
-out = cv2.VideoWriter( './saida/out.avi',cv2.VideoWriter_fourcc(*'DIVX'), 24, (width, height))
-
 # Loop de leitura frame por frame
 while True:
     # Leitura do frame
@@ -45,6 +42,5 @@ while True:
         break
     
 # Fecha tudo
-out.release()
 cap.release()
 cv2.destroyAllWindows()
