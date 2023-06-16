@@ -32,9 +32,6 @@ while True:
 
     # Exibe o frame
     cv2.imshow('Playback', frame)
-    
-    # Escreve o frame no output
-    out.write(frame)
 
     # Se o usuario apertar q, encerra o playback
     # O valor utilizado no waiKey define o fps do playback
