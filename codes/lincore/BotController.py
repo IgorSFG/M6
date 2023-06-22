@@ -6,6 +6,7 @@ from supabase import create_client, Client
 from Pose import Pose
 import rclpy
 import os
+import random
 
 # Credenciais do Supabase
 url: str = "https://etxrmfvkgcrpyzdpvvrn.supabase.co"
@@ -49,19 +50,16 @@ class BotController(Node):
             # Atualiza a pose e rotação atuais
             self.current_pose = Pose(x=x, y=y, theta=theta)
 
-            xr = round(x, 2)
-            yr = round(y, 2)
-            thetar = round(theta, 2)
+            x = round(x, 2)
+            y = round(y, 2)
+            theta = round(theta, 2)
+            id = random.randint(0, 2**16)
 
             try:
-                data, count = supabase.table('Coordinates').insert({"x": xr, "y": yr, "theta": thetar}).execute()
+                data, count = supabase.table('Coordinates').insert({"x": x, "y": y, "theta": theta, "id": id}).execute()
                 print("Dados inseridos no banco de dados.")
             except Exception:
                 print("Erro ao inserir dados no banco de dados.")
-
-
-            
-
 
 
 rclpy.init()
