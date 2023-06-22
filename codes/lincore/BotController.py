@@ -50,8 +50,8 @@ class BotController(Node):
             # Atualiza a pose e rotação atuais
             self.current_pose = Pose(x=x, y=y, theta=theta)
 
-            x = round(x, 2)
-            y = round(y, 2)
+            x = round(y, 2)
+            y = round(x, 2)
             theta = round(theta, 2)
             id = random.randint(0, 2**16)
 
